@@ -14,14 +14,14 @@
         {
             "name": "APPLICATION_NAME",
             "description": "The name of the WordPress instance.",
-            "value": "my-wordpress-site",
+            "value": "pilot-wordpress-site",
             "from": "[a-zA-Z0-9]",
             "required": true
         },
         {
             "name": "QUICKSTART_REPOSITORY_URL",
             "description": "The URL of the quickstart Git repository.",
-            "value": "https://github.com/openshift-evangelists/wordpress-quickstart",
+            "value": "https://github.com/jdub233/wordpress-quickstart",
             "required": true
         },
         {

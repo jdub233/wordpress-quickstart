@@ -14,20 +14,20 @@
         {
             "name": "APPLICATION_NAME",
             "description": "The name of the WordPress instance.",
-            "value": "my-wordpress-site",
+            "value": "wordpress-repo",
             "from": "[a-zA-Z0-9]",
             "required": true
         },
         {
             "name": "QUICKSTART_REPOSITORY_URL",
             "description": "The URL of the quickstart Git repository.",
-            "value": "https://github.com/openshift-evangelists/wordpress-quickstart",
+            "value": "https://github.com/jdub233/wordpress-quickstart",
             "required": true
         },
         {
             "name": "SOURCE_REPOSITORY_URL",
             "description": "The source repository containing plugins, themes and language files.",
-            "value": "",
+            "value": "https://github.com/jdub233/oc-wp-plugins-themes",
             "required": true
         },
         {
