@@ -14,7 +14,7 @@ set -eo pipefail
 # Use latest stable version of WordPress if no version is specified.
 
 if [ -z "$WORDPRESS_INSTALL_VERSION" ]; then
-  WORDPRESS_INSTALL_VERSION="4.9.10"
+  WORDPRESS_INSTALL_VERSION="4.9.5"
 fi
 
 # Download WordPress.
